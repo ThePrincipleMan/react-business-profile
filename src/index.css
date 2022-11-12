@@ -5,6 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #23252C;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App{
+  border-radius: 20px;
+  background-color: #171a25;
+  width: 29vw;
+  margin: auto;
+  color: #ffffff;
+  padding-top: 8px;
+  margin-top: 12px;
 }
 
 code {

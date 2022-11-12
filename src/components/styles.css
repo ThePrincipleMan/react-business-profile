@@ -1,0 +1,65 @@
+.photo{
+    object-fit: contain;
+} 
+
+.maininfo{
+    margin: auto;
+}
+
+.useful-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.useful-links > div{
+    padding: 5px;
+    font-size: 22px;
+}
+
+.email{
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    min-width: 40%;
+    margin-left: 28px;
+    margin-right: auto;
+}
+
+.email:hover{
+    color: #ffffff;
+    background-color: #000;
+
+}
+
+.linkedin{
+    margin-right: 28px;
+    margin-left: auto;
+    color: #ffffff;
+    background-color: #00c8ff;
+    border-radius: 5px;
+    min-width: 40%;
+}
+
+.linkedin:hover{
+    color: #4ec0df;
+    background-color: #000;
+}
+
+.infobottom{
+    padding: 30px;
+}
+
+.infobottom > h3{
+    text-align: left;
+}
+
+.infobottom > p{
+    text-align: left;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+}
