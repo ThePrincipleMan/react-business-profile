@@ -13,7 +13,7 @@ body {
 }
 
 .App{
-  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
   background-color: #171a25;
   width: 29vw;
   margin: auto;

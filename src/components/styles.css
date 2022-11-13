@@ -1,9 +1,14 @@
 .photo{
     object-fit: contain;
+    margin-top: -7px;
 } 
 
 .maininfo{
     margin: auto;
+}
+
+.maininfo > h4{
+    color: orange;
 }
 
 .useful-links{
@@ -16,6 +21,8 @@
 .useful-links > div{
     padding: 5px;
     font-size: 22px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .email{
@@ -62,4 +69,24 @@
 .footer{
     background-color: black;
     display: flex;
+    padding: 20px;
+    padding: auto;
+    justify-content: space-evenly;
+}
+
+.footer > div{
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > div > img{
+    
+}
+
+.footer > div:hover{
+    background-color: grey;
 }
